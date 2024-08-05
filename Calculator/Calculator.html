@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./Calculator.css">
+  <script src="./Calculator.js"></script>
+</head>
+<body>
+  <div id="container">
+    <h1>CALCULATOR</h1>
+    <div id="cal-container">
+      <div id="output-container">
+         <input type="text" id="input" onchange="setValue">
+         <p id="output"></p>
+      </div>
+      <div id="input-container">
+        <div id="btn1" onclick="pressbutton('+')"><p id="item1">+</p></div>
+        <div id="btn2" onclick="pressbutton('-')"><p id="item2">-</p></div>
+        <div id="btn3" onclick="pressbutton('*')"><p id="item3">x</p></div>
+        <div id="btn4" onclick="pressbutton('/')"><p id="item4">%</p></div>
+        <div id="btn5" onclick="pressbutton('7')"><p id="item5">7</p></div>
+        <div id="btn6" onclick="pressbutton('8')"><p id="item6">8</p></div>
+        <div id="btn7" onclick="pressbutton('9')"><p id="item7">9</p></div>
+        <div id="btn8" onclick="pressbutton('=')"><p id="item8">=</p></div>
+        <div id="btn9" onclick="pressbutton('4')"><p id="item9">4</p></div>
+        <div id="btn10" onclick="pressbutton('5')"><p id="item10">5</p></div>
+        <div id="btn11" onclick="pressbutton('6')"><p id="item11">6</p></div>
+        <div id="btn12" onclick="pressbutton('1')"><p id="item12">1</p></div>
+        <div id="btn13" onclick="pressbutton('2')"><p id="item13">2</p></div>
+        <div id="btn14" onclick="pressbutton('3')"><p id="item14">3</p></div>
+        <div id="btn15" onclick="pressbutton('0')"><p id="item15">0</p></div>
+        <div id="btn16" onclick="pressbutton('.')"><p id="item16">.</p></div>
+        <div id="btn17" onclick="pressbutton('C')"><p id="item17">AC</p></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
