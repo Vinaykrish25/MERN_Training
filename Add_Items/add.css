@@ -1,0 +1,90 @@
+body{
+    background-image: url("./images/back1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid brown; */
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    overflow-y: auto;
+    left: 450px;
+    top: 50px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 30px 3px rgb(210, 198, 198);
+}
+#container h1{
+    position:absolute;
+    top: 30px;
+    left: 80px;
+    font-style: italic;
+    color: rgb(237, 237, 237);
+    font-weight: 900;
+}
+#user-inp{
+    position: absolute;
+    top: 130px;
+    left: 100px;
+  
+}
+#inp{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+    padding-left: 20px;
+    background-color:rgb(103, 98, 98);
+    border: 2px solid black;
+}
+#inp::after{
+    background-color: gray;
+    font-size: larger;
+
+}
+#inp::placeholder{
+    color: black;
+    font-size: larger;
+}
+#but{
+    position: absolute;
+    top:130px;
+    left: 330px;
+}
+#but1{
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(70, 70, 246);
+    cursor: pointer;
+    box-shadow: 2px 2px 40px 2px rgb(210, 198, 198);
+    font-weight: 800;
+    font-size: x-large;
+}
+#rem{
+    position: absolute;
+    top:130px;
+    left: 400px;
+}
+#but2{
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(70, 70, 246);
+    cursor: pointer;
+    box-shadow: 2px 2px 40px 2px rgb(210, 198, 198);
+    font-weight: 800;
+    font-size: x-large;
+}
+/* #para-con{
+    position: absolute;
+    left:200px
+} */
