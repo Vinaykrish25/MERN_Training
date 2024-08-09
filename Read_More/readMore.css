@@ -1,0 +1,11 @@
+.hidden-text {
+    display: none;
+}
+.button {
+    cursor: pointer;
+    color: #007BFF;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 16px;
+}
